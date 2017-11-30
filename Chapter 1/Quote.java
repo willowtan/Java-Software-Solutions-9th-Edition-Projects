@@ -5,9 +5,8 @@ to each other
 c. inside a box made up of the characters = and | */
 //Project 1.8
 
-public class Quote
-{
-  public static void main (String [] args){
-      System.out.println("Knowledge is Power\n\nKnowledge\n  is\n Power\n");
-      System.out.println("|=========|\n|Knowledge|\n|   is    |\n|  Power  |\n|=========|");
+public class Quote { //create class Quote
+  public static void main (String [] args){ // make main void method
+      System.out.println("Knowledge is Power\n\nKnowledge\n  is\n Power\n"); //Prints out quote with various modifications
+      System.out.println("|=========|\n|Knowledge|\n|   is    |\n|  Power  |\n|=========|"); //Prints boxed quotes
 }}

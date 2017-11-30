@@ -1,7 +1,6 @@
 /* Create a version of the TempConverter application to convert from
    Farenheit to Celsius.  Read the Farenheit temperature from the
-   user.
- */
+   user. */
 // Project 2.5
 
 import java.util.Scanner; //import Scanner

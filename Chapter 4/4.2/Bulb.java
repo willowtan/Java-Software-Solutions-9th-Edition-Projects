@@ -1,6 +1,6 @@
 public class Bulb { //create class Bulb
- private boolean on; //declare variable on to be a boolean 
- public Bulb (boolean light) { //declare parameters of Bulb
+private boolean on; //declare variable on to be a boolean 
+public Bulb (boolean light) { //declare parameters of Bulb
      on = light; //variable on is equal to light
  }  
  public void On() { //create a method On with no return variable

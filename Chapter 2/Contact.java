@@ -1,9 +1,8 @@
-/*Write a program that prompts for and reads a person's name,
+/* Write a program that prompts for and reads a person's name,
   age, college, and pet's name.  Then print the following paragraph,
   inserting the appropriate data:
   Hello, my name is *name* and I am *age* years old.  I'm enjoying my 
-  time at *college*, though I miss my pet *petnname* very much!
- */
+  time at *college*, though I miss my pet *petnname* very much! */
 //Project 2.4
 
 import java.util.Scanner; //import Scanner object
@@ -21,4 +20,4 @@ public class Contact{ //create class Contact
         petname=scan.nextLine();
         System.out.println("Hello, my name is "+name+" and I am "+age+" years old.  I'm my time at  "+college+", though I miss my pet "+petname+" very much!");
         //Prints out final paragraph with the inputted variables
-}}
+    }}

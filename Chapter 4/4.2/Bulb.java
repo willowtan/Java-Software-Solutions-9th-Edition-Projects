@@ -1,7 +1,7 @@
 /* Write a class called Bulb that represents a light bulb that 
-   can be turned on and off.  Create a driver class called 
-   Lights whose main method instantiates and turns on some 
-   Bulb objects. */
+ * can be turned on and off.  Create a driver class called 
+ * Lights whose main method instantiates and turns on some 
+ * Bulb objects. */
 //Project 4.2
 
 public class Bulb { //create class Bulb

@@ -1,8 +1,8 @@
 /* Write a program that prints the phrase Knowledge is Power:
-a. on one line
-b. on three lines, one word per line, with the words centered relative
-to each other
-c. inside a box made up of the characters = and | */
+ * a. on one line
+ * b. on three lines, one word per line, with the words centered relative
+ * to each other
+ * c. inside a box made up of the characters = and | */
 //Project 1.8
 
 public class Quote { //create class Quote

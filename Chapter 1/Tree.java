@@ -1,4 +1,4 @@
-/*Write a program that prints the outline of a tree using asterisk (*) characters.*/
+/* Write a program that prints the outline of a tree using asterisk (*) characters. */
 //Project 1.6
 
 public class Tree

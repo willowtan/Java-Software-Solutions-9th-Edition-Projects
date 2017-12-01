@@ -1,12 +1,11 @@
 /* Write a class called Sphere that contains instance data that represents
-the sphere's diameter.  Define the Sphere contructor to accept and 
-initialize the diameter, and include getter and setter methods for the
-diameter.  Include methods that calculate and return the volume and surface
-area of the sphere (see PP 3.6 for the formulas).  Include a toString method
-that returns a one-line description of the sphere.  Create a driver class 
-called MultiSphere, whose main method instantiates and updates several Sphere
-objects.
-*/
+ * the sphere's diameter.  Define the Sphere contructor to accept and 
+ * initialize the diameter, and include getter and setter methods for the
+ * diameter.  Include methods that calculate and return the volume and surface
+ * area of the sphere (see PP 3.6 for the formulas).  Include a toString method
+ * that returns a one-line description of the sphere.  Create a driver class 
+ * called MultiSphere, whose main method instantiates and updates several Sphere
+   objects. */
 //Project 4.3
 
 public class Sphere { //create class Sphere

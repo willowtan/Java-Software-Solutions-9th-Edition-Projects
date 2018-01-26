@@ -1,24 +1,24 @@
 /* Write an application that prompts for and reads a double value
- * representing a monetary amount.  Then determine the fewest number
- * of each bill and coin needed to represent that amount, starting with
- * the highest (assume that a ten dollar bill is the maximum needed).
- * For example,if the value entered is 47.63 (forty seven dollars and 63 cents),
- * then the program should print the equivalent amount as:
- * 4 ten dollar bills
- * 1 five dollar bills
- * 2 one dollar bills
- * 2 quarters
- * 1 dime
- * 0 nickles
+   representing a monetary amount.  Then determine the fewest number
+   of each bill and coin needed to represent that amount, starting with
+   the highest (assume that a ten dollar bill is the maximum needed).
+   For example,if the value entered is 47.63 (forty seven dollars and 63 cents),
+   then the program should print the equivalent amount as:
+   4 ten dollar bills
+   1 five dollar bills
+   2 one dollar bills
+   2 quarters
+   1 dime
+   0 nickles
    3 pennies */
 //Project 2.11
 
 import java.util.Scanner;
     public class MoneyToCoins {
         public static void Stuff(String[]args) {
-            double total;
-            double one, five, ten;
-            double penny, nickel, dime, quarter;
+            double total; 
+			double one, five, ten; 
+			double penny, nickel, dime, quarter;
             Scanner scan = new Scanner(System.in);
             System.out.print("Total money:");
             total = scan.nextDouble();
@@ -36,4 +36,4 @@ import java.util.Scanner;
             System.out.println((int)dime + " dimes ");
             System.out.println((int)nickel + " nickels");
             System.out.println((int)penny + " pennies");
-        }}
+}}
